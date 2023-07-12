@@ -1,0 +1,232 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit',sans-serif;
+}
+
+.body1{
+  background-color: #0B71AE;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+.nav{
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background: #ffffffff;
+  z-index: 100;
+}
+.nav-logo p{
+  color: #0B71AE;;
+  font-size: 20px;
+  font-weight: 600;
+}
+.nav-menu ul{
+  display: flex;
+}
+.nav-menu ul li{
+  list-style-type: none;
+}
+.nav-menu ul li .link{
+  text-decoration: none;
+  font-weight: 500;
+  color: #000000;
+  padding-bottom: 15px;
+  margin: 0 25px;
+}
+.link:hover, .active{
+  border-bottom: 3px solid #0B71AE;
+}
+.nav-button .btn{
+  width: 130px;
+  height: 40px;
+  font-weight: 500;
+  background:#0B71AE;
+  color:#ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .3s ease;
+}
+.btn:hover{
+  background: #000000;
+  color:#ffffff;
+}
+#registerBtn{
+  margin-left: 15px;
+}
+.btn.white-btn{
+  background:#0B71AE;
+  color:#ffffff;
+}
+.btn.btn.white-btn:hover{
+  background: #000000;
+  color:#ffffff;
+}
+
+/* Add padding to containers */
+.container {
+  width:602px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin:8% auto 0;
+  text-align:center;
+  border-radius:15px;
+}
+
+.title1{
+  text-align:center;
+  color:#0B71AE;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=tel],input[type=email],input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius:15px;
+  background: #C7BEBE;
+}
+
+input[type=checkbox]{
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+}
+
+input[type=text]:focus, input[type=tel]:focus,input[type=email]:focus,input[type=password]:focus {
+  background-color: #C7BEBE;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #ffffff;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #0B71AE;
+  color: #ffffff;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border-radius:83px;
+  border:none;
+  cursor: pointer;
+  width: 201px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 2;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #0B71AE;
+}
+
+.signin {
+  text-align: center;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+}
+
+.footer{
+  padding:20px;
+  text-align: center;
+  color:#ffffff;
+  font-size:10px;
+  background-color:  #0B71AE;
+}
+
+.register-photo {
+  background: #0B71AE;
+  padding: 80px 0
+  }
+
+ .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(../img/Login.jpg);
+  background-size: cover;
+  }
+  
+.form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+  }
+
+form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c
+  }
+
+  h1 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 15px
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top:15px;
+    }
+
+  .form-control {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #dfe7f1;
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 0px;
+  height: 40px
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forgotpassword {
+  display: block;
+  text-align: left;
+  margin-bottom:15px;
+  }
+
+  .register {
+    display: block;
+    text-align: center;
+    margin-top:15px;
+    }
